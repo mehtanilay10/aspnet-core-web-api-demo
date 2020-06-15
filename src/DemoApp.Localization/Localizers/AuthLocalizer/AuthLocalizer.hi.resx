@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountVerifiedSuccessfully" xml:space="preserve">
+    <value>आपका खाता सफलतापूर्वक सत्यापित हो गया है। आप लॉगिन करने के लिए एक ही पासवर्ड का उपयोग कर सकते हैं।</value>
+  </data>
+  <data name="AlreadyVerifiedMailId" xml:space="preserve">
+    <value>आपने अपना ईमेल पता पहले ही सत्यापित कर लिया है।</value>
+  </data>
+  <data name="ConfirmationMailSendSuccessfully" xml:space="preserve">
+    <value>पुष्टिकरण मेल फिर से सफलतापूर्वक भेजें।</value>
+  </data>
+  <data name="EmailIdIsRequired" xml:space="preserve">
+    <value>ईमेल क्षेत्र की आवश्यकता है।</value>
+  </data>
+  <data name="ErrorOccurredToResendConfirmationMail" xml:space="preserve">
+    <value>पुष्टिकरण लिंक को पुनः भेजने के लिए एक त्रुटि हुई।</value>
+  </data>
+  <data name="ErrorOccurredToResetPassword" xml:space="preserve">
+    <value>पासवर्ड रीसेट करने में त्रुटि हुई।</value>
+  </data>
+  <data name="ErrorOccurredToUpdatePassword" xml:space="preserve">
+    <value>पासवर्ड अपडेट करने में त्रुटि हुई!</value>
+  </data>
+  <data name="ErrorOccurredToUpdateSecurityQuestions" xml:space="preserve">
+    <value>सुरक्षा प्रश्नों को अपडेट करने में त्रुटि हुई!</value>
+  </data>
+  <data name="ErrorOccurredToVerifyAnswer" xml:space="preserve">
+    <value>उत्तरों को सत्यापित करने में त्रुटि हुई!</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>अमान्य लॉगिन प्रयास।</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>अमान्य टोकन!</value>
+  </data>
+  <data name="LoginFailure" xml:space="preserve">
+    <value>लॉगिन विफलता!</value>
+  </data>
+  <data name="NotFoundSecurityQuestions" xml:space="preserve">
+    <value>सुरक्षा प्रश्न नहीं मिले।</value>
+  </data>
+  <data name="NotFoundSecurityQuestionsContactSupport" xml:space="preserve">
+    <value>सुरक्षा प्रश्न नहीं मिले। कृपया समर्थन टीम से संपर्क करें।</value>
+  </data>
+  <data name="NotSettingUpSecurityQuestions" xml:space="preserve">
+    <value>आपने पासवर्ड रीसेट करने के लिए सुरक्षा प्रश्न सेट नहीं किए हैं। आप मेल आईडी का उपयोग करके पासवर्ड रीसेट कर सकते हैं।</value>
+  </data>
+  <data name="OneOrMoreAnswerDoesNotMatch" xml:space="preserve">
+    <value>एक या अधिक सुरक्षा प्रश्न उत्तर मेल नहीं खाते।</value>
+  </data>
+  <data name="PasswordUpdatedSuccessfully" xml:space="preserve">
+    <value>आपका पासवर्ड सफलतापूर्वक अपडेट किया गया।</value>
+  </data>
+  <data name="ResetLinkSendSuccefully" xml:space="preserve">
+    <value>अपनी मेल आईडी पर भेजे गए पासवर्ड लिंक को रीसेट करें। कृपया मेल में उल्लिखित निर्देश का पालन करें।</value>
+  </data>
+  <data name="ResetPasswordSuccessfully" xml:space="preserve">
+    <value>आपका पासवर्ड सफलतापूर्वक रीसेट।</value>
+  </data>
+  <data name="SetSecurityQuetionsAndPasswordToConfirmYourAccount" xml:space="preserve">
+    <value>अपने खाते की पुष्टि करने के लिए, सुरक्षा स्थिति और पासवर्ड सेट करें।</value>
+  </data>
+  <data name="UnableToConfirmMailId" xml:space="preserve">
+    <value>आपके मेल पते की पुष्टि करने में असमर्थ।</value>
+  </data>
+  <data name="UnableToCreateUser" xml:space="preserve">
+    <value>उपयोगकर्ता बनाने में असमर्थ!</value>
+  </data>
+  <data name="UnableToResnedConfirmationLink" xml:space="preserve">
+    <value>पुष्टि लिंक को फिर से भेजने में असमर्थ।</value>
+  </data>
+  <data name="YouNeedToConfirmMailId" xml:space="preserve">
+    <value>लॉगिन करने के लिए आपको अपनी मेल आईडी की पुष्टि करनी होगी।</value>
+  </data>
+  <data name="YourAccountIsDeactivated" xml:space="preserve">
+    <value>आपका खाता निष्क्रिय कर दिया गया है। कृपया समर्थन टीम से संपर्क करें।</value>
+  </data>
+  <data name="YourAccountIsLocked" xml:space="preserve">
+    <value>आपका खाता लॉक हो गया है। 30 मिनट के बाद लॉगिन करने का प्रयास करें।</value>
+  </data>
+</root>
